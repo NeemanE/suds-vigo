@@ -6,7 +6,7 @@ export default function Choice() {
       <Link href="/suds&duds" className="grid flex-grow h-screen card bg-blue-500 rounded-box place-items-center cursor-pointer">
         Suds & Duds
       </Link>
-
+      <div className="divider divider-horizontal">OR</div>
       <Link href="/vi-go-tire" className="grid flex-grow h-screen card bg-green-300 rounded-box place-items-center cursor-pointer">
         V.I. Go Tire Shop
       </Link>
