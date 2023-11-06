@@ -6,14 +6,13 @@ export default function Header() {
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center">
         <div className="flex flex-col sm:flex-row items-center sm:space-x-4">
           <p className="text-xs sm:text-sm">
-            <span className="font-bold">Address:</span> 123 Business Ave, Suite
-            456
+            <span className="font-bold">Address:</span> 123 Street 456
           </p>
           <p className="text-xs sm:text-sm">
-            <span className="font-bold">Phone:</span> (123) 456-7890
+            <span className="font-bold">Phone:</span> (340) 692-9274
           </p>
           <p className="text-xs sm:text-sm">
-            <span className="font-bold">Email:</span> contact@example.com
+            <span className="font-bold">Email:</span> contact@email.com
           </p>
         </div>
         <div className="mt-3 sm:mt-0">

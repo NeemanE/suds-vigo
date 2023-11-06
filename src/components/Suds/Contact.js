@@ -23,7 +23,7 @@ export default function Contact() {
               <strong>Email:</strong> contact@example.com
             </p>
             <p>
-              <strong>Phone:</strong> (123) 456-7890
+              <strong>Phone:</strong> (340) 692-9274
             </p>
           </div>
           <form className="w-full max-w-lg">

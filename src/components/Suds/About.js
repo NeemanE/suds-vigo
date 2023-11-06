@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Pic from "@/public/images/placeholder.png";
+import Pic from "@/public/images/Suds/SudsAbout.jpg";
 
 export default function About() {
   return (
@@ -11,22 +11,16 @@ export default function About() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 lg:mb-0">
             <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4">Subsection 1</h3>
-              <p className="text-gray-600">
-                Detailed information about subsection 1...
-              </p>
+              <h3 className="text-xl font-semibold mb-4">Need info</h3>
+              <p className="text-gray-600">Need info </p>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4">Subsection 2</h3>
-              <p className="text-gray-600">
-                Detailed information about subsection 2...
-              </p>
+              <h3 className="text-xl font-semibold mb-4">Need info</h3>
+              <p className="text-gray-600">Need info</p>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold mb-4">Subsection 3</h3>
-              <p className="text-gray-600">
-                Detailed information about subsection 3...
-              </p>
+              <h3 className="text-xl font-semibold mb-4">Need info</h3>
+              <p className="text-gray-600">Need info</p>
             </div>
           </div>
         </div>

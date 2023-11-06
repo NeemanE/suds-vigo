@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Logo from "@/public/images/image-placeholder-small.jpg";
+import Logo from "@/public/images/Suds/LogoNoBg.png";
 
 export default function Navbar() {
   return (
     <div className="navbar bg-blue-400">
-      <div className="navbar-start">
+      <div className="navbar-start relative">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
@@ -27,24 +27,32 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-            <a className="normal-case">Home</a>
-          </li>
-          <li>
-            <a className="normal-case">About Us</a>
-          </li>
-          <li>
-            <a className="normal-case">Contact Us</a>
-          </li>
-          <li>
-            <a className="normal-case">Services</a>
-          </li>
+              <a className="normal-case">Home</a>
+            </li>
+            <li>
+              <a className="normal-case">About Us</a>
+            </li>
+            <li>
+              <a className="normal-case">Contact Us</a>
+            </li>
+            <li>
+              <a className="normal-case">Services</a>
+            </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Your Company</a>
+        <div>
+          <Image
+            src={Logo}
+            alt="Logo"
+            width={85}
+            height={"auto"}
+            objectFit="contain"
+          />
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-        <li>
+          <li>
             <a className="normal-case text-xl">Home</a>
           </li>
           <li>
@@ -58,9 +66,7 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <Image src={Logo} alt="Logo" width={75} height={"auto"} />
-      </div>
+      <div className="navbar-end relative"></div>
     </div>
     /*  <div className="navbar bg-gray-500 px-48">
       <div className="flex-1">

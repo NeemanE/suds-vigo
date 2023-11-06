@@ -1,15 +1,16 @@
 import Image from "next/image";
-import placeholder from "@/public/images/image-placeholder-small.jpg"
+import Logo from "@/public/images/Suds/LogoNoBg.png";
 
 export default function Footer() {
   return (
     <footer className="footer items-center p-4 bg-neutral text-neutral-content lg:px-24">
       <aside className="items-center grid-flow-col">
         <Image
-        src={placeholder}
-        alt="placeholder"
-        width={50}
-        height={"auto"}
+          src={Logo}
+          alt="Logo"
+          width={85}
+          height={"auto"}
+          objectFit="contain"
         />
         <p>Copyright © 2023 - All right reserved</p>
       </aside>
