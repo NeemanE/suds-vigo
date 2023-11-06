@@ -31,7 +31,7 @@ export default function Choice() {
       {/* Content container to overlay on the blurred background */}
       <div className="relative flex flex-col items-center justify-center w-full h-full lg:flex-row">
         <div
-          className="card rounded-box place-items-center cursor-pointer hover:scale-105 mx-4"
+          className="card rounded-box place-items-center cursor-pointer hover:scale-105 mx-4 mobilegrid"
           style={{
             backgroundImage: `url(${SudsChoice})`,
             backgroundPosition: "center",
@@ -48,7 +48,7 @@ export default function Choice() {
         {' '} {" "}
         </div>
         <div
-          className="card rounded-box place-items-center cursor-pointer hover:scale-105 mx-4"
+          className="card rounded-box place-items-center cursor-pointer hover:scale-105 mx-4 mobilegrid"
           style={{
             backgroundImage: `url(${TireChoice})`,
             backgroundPosition: "center",

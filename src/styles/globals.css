@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (max-width: 500px) {
+  .mobilegrid {
+    width: 80vw !important; 
+  }
+}
